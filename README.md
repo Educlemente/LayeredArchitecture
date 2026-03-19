@@ -1,4 +1,4 @@
-# Sistema de Gerenciamento de Biblioteca - Arquitetura em Camadas
+Projeto Spring - Versão do Eduardo
 
 ## 📚 Objetivo Educacional
 
