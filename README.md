@@ -1,4 +1,4 @@
-# Sistema de Gerenciamento de Biblioteca - Arquitetura em Camadas
+#Projeto String - versão da Alice
 
 ## 📚 Objetivo Educacional
 
