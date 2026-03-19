@@ -1,4 +1,7 @@
+package JAVA.repository;
 import java.util.List;
+
+import JAVA.model.Emprestimo;
 
 public class EmprestimoRepository {
 

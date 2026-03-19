@@ -1,17 +1,22 @@
+package JAVA.service;
 import java.util.List;
 
-public class UsuarioController {
-    private UsuarioService usuarioService;
+import JAVA.model.Usuario;
+import JAVA.repository.UsuarioRepository;
 
-    public UsuarioController() {
-        this.usuarioService = new UsuarioService();
+public class UsuarioService {
+    private UsuarioRepository usuarioRepository;
+
+    public UsuarioService() {
+        this.usuarioRepository = new UsuarioRepository();
     }
 
-    public UsuarioController(UsuarioService usuarioService) {
-        this.usuarioService = usuarioService;
+    public UsuarioService(UsuarioRepository usuarioRepository) {
+        this.usuarioRepository = usuarioRepository;
     }
 
-    public void cadastrar(Usuario usuario) {
+    public Usuario cadastrar(Usuario usuario) {
+        return null;
     }
 
     public Usuario buscarPorId(int id) {
@@ -40,3 +45,4 @@ public class UsuarioController {
     public void remover(int id) {
     }
 }
+//ajuste5

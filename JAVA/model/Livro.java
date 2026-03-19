@@ -1,3 +1,4 @@
+package JAVA.model;
 public class Livro {
     private int id;
     private String nome;
@@ -55,16 +56,20 @@ public class Livro {
     public void setQuantidade(int quantidade) {
         this.quantidade = quantidade;
     }
+    private boolean emprestado = false;
 
-    @Override
-    public String toString() {
-        return "Produto{" +
-                "id=" + id +
-                ", nome='" + nome + '\'' +
-                ", autor='" + edicao + '\'' +
-                ", edicao=" + edicao +
-                ", quantidade=" + quantidade +
-                '}';
-    }
+public boolean isEmprestado() {
+    return emprestado;
+}
+
+public void setEmprestado(boolean emprestado) {
+    this.emprestado = emprestado;
+}
+
+   @Override
+public String toString() {
+    return String.format("ID: %d | Livro: %-20s | Autor: %-15s | Edição: %d | Qtd: %d", 
+                         id, nome, autor, edicao, quantidade);
+}
 }
 //ajuste2

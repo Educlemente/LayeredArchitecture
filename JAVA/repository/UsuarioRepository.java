@@ -1,4 +1,7 @@
+package JAVA.repository;
 import java.util.List;
+
+import JAVA.model.Usuario;
 
 public class UsuarioRepository {
 
