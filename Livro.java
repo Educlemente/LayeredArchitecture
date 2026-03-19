@@ -40,11 +40,11 @@ public class Livro {
         this.autor = autor;
     }
 
-    public double getEdicao() {
+    public int getEdicao() {
         return edicao;
     }
 
-    public void setEdicao(double edicao) {
+    public void setEdicao(int edicao) {
         this.edicao = edicao;
     }
 
@@ -67,3 +67,4 @@ public class Livro {
                 '}';
     }
 }
+//ajuste2
